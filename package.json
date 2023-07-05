@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "multiple-cucumber-html-reporter": "^3.2.0"
+  },
+  "scripts": {
+    "test:production": "npx cypress run --e2e",
+    "test:report": "npx cypress run --record --key 562406be-23d2-48e9-b67f-9bcc14ea3e19"
+  },
+  "name": "Cypress-complete-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.7.0",
+    "esbuild": "^0.17.11",
+    "playwright-webkit": "^1.31.1"
+  }
+}
